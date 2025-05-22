@@ -89,8 +89,9 @@ Before starting, ensure you have the following installed:
 - `deactivate`: Deactivates the virtual environment
 
 ### Ollama Commands
-- `ollama pull llama3.1`: Downloads the Llama 3.1 model
+- `ollama pull gemma3:1b`: Downloads the Llama 3.1 model
 - `ollama serve`: Starts the Ollama server
+- `ollama run gemma3:1b`: Runs the gemma3:1b model. Run this command in a separate terminal window.
 
 ### Package Management Commands
 - `pip install package_name`: Installs a Python package
