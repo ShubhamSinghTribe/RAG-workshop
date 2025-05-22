@@ -78,7 +78,7 @@ Before starting, ensure you have the following installed:
 2. Activate your virtual environment if not already activated
 3. Run the starter code:
    ```bash
-   python starter.py
+   python rag_create_index.py
    ```
 
 ## Understanding the Commands
