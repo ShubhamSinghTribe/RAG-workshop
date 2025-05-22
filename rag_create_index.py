@@ -1,9 +1,5 @@
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
-# from llama_index.embeddings import HuggingFaceEmbedding
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-# from llama_index import LLMPredictor, ServiceContext
-# from langchain.chat_models import ChatOpenAI
-from llama_index.llms.ollama import Ollama
 
 def document_reader(path):
     """
